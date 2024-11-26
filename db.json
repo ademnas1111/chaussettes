@@ -1,0 +1,54 @@
+{
+    "products": [
+      {
+        "id": 1,
+        "brand": "Green Socks",
+        "inventory": 8,
+        "details": [
+          "50% cotton",
+          "20% polyester",
+          "30% wool"
+        ],
+        "sizes": [36, 38, 40, 42, 44],
+        "variants": [
+          {
+            "id": 2001,
+            "color": "green",
+            "image": "assets/images/socks_green.jpg",
+            "quantity": 50
+          },
+          {
+            "id": 2002,
+            "color": "blue",
+            "image": "assets/images/socks_blue.jpg",
+            "quantity": 0
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "brand": "Blue Socks",
+        "inventory": 5,
+        "details": [
+          "60% cotton",
+          "30% polyester",
+          "10% spandex"
+        ],
+        "sizes": [36, 38, 40, 42],
+        "variants": [
+          {
+            "id": 2003,
+            "color": "blue",
+            "image": "assets/images/socks_blue.jpg",
+            "quantity": 20
+          },
+          {
+            "id": 2004,
+            "color": "dark blue",
+            "image": "assets/images/socks_dark_blue.jpg",
+            "quantity": 0
+          }
+        ]
+      }
+    ]
+  }
